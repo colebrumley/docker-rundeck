@@ -10,5 +10,4 @@ RUN     apk add --update openjdk7-jre bash && \
         chmod a+x /bin/rundeck
 EXPOSE  4440
 VOLUME  /opt/rundeck
-COPY    rundeck /opt/rundeck
 CMD     rundeck
