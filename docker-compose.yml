@@ -7,7 +7,7 @@ mariadb:
     MYSQL_PASSWORD: rd
 
 rundeck:
-  image: elcolio/rdeck:test
+  image: elcolio/rundeck
   environment:
     MYSQL_USER: rd
     MYSQL_PASSWORD: rd
