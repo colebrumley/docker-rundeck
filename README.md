@@ -14,7 +14,7 @@ I recently switched this to Alpine Linux as the base, so the image size is a lit
   - `DEFAULT_PASSWORD` - default: `docker`
   - `SERVER_MEMORY` - default: `1024`
   - `SERVER_PORT` - default: `4440`
-  - `SERVER_URL` - default: `$(hostname)` (Override Rundeck's grails.serverURL)
+  - `SERVER_URL` - default: `http://$(hostname):4440` (Override Rundeck's grails.serverURL)
   - `MYSQL_USER`
   - `MYSQL_PASSWORD`
   - `MYSQL_ADDR` - default: `mysql`
